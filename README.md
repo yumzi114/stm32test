@@ -24,3 +24,6 @@ MEMORY
     RAM (rxw)  : ORIGIN = 0x20000000, LENGTH = 96K
 }
 _stack_start = ORIGIN(RAM) + LENGTH(RAM);
+
+## 러스트 공식문서(임베디드 STM예시) 정리잘되어있는
+https://docs.rust-embedded.org/book/intro/install.html
